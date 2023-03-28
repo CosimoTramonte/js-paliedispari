@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Pari e Dispari</title>
 </head>
 <body>
     
+    <div class="container">
+        <div id="player">
+            <label for="number">Scegli un muero da 1 a 5</label>
+            <input type="number" id="number" min="1" max="5">
+
+            <label for="choose">Scegli: pari o dispari</label>
+            <select name="choose" id="choose">
+                <option value="">---Sgeli---</option>
+                <option value="pari">Pari</option>
+                <option value="dispari">Dispari</option>
+            </select>
+
+            <button id="gioca">Gioca</button>
+        </div>
+
+        <div id="play">
+
+            <div id="computer">
+                <h1>Numero del Computer</h1>
+                <div id="outputComputer"></div>
+            </div>
+
+            <div id="playerNumber">
+                <h1>Il tuo numero</h1>
+                <div id="outputPlayer"></div>
+            </div>
+
+            <div id="result">
+                <h1>Risultato</h1>
+                <div id="outputResult"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

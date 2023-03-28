@@ -19,7 +19,6 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
 ## Pari e Dispari
--
--
--
--
+- Chiedere all'utente di scegliere pari o dispari e un numero da 1 a 5
+- Uso una funzione che genera un numero random tra 1 e 5 per il computer
+- Con un'altra funziona, sommo i due numeri e controllo se è pari o dispari
