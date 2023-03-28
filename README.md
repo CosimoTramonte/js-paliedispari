@@ -7,7 +7,7 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 ## Palindroma
 - Chiedere all'utente di inserire una parola
-- Creo una funzione che vedere la parola al contrario
+- Creo una funzione che vede la parola al contrario
 - Se una è identica all'altra è una parola palindroma, altrimenti non lo è
 
 ---
