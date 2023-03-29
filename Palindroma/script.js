@@ -1,5 +1,5 @@
 
-const word = prompt("Scrivi una parola")
+const word = prompt("Scrivi una parola").trim().toLowerCase()
 
 let result = palindromeDetector(word)
 

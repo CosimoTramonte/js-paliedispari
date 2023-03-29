@@ -14,7 +14,7 @@ btnGioca.addEventListener("click", function(){
 
     document.getElementById("outputComputer").innerHTML = numeroComputer
 
-    const result = getResult(numeroComputer,number)
+    const result = getResult(numeroComputer,number, pariDispari)
     document.getElementById("outputResult").innerHTML = result
 })
 
@@ -26,15 +26,15 @@ function getRandomNumber(min, max){
     return randomNumber
 }
 
-function getResult(numA, numB) {
+function getResult(numA, numB, choose) {
     
     let result;
 
     let total = numA + numB
 
-    if(!(total % 2) && selectChoose.value === "pari"){
+    if(!(total % 2) && choose === "pari"){
         result = total + " hai vinto"
-    } else if((total % 2 !== 0) && selectChoose.value === "dispari"){
+    } else if((total % 2 !== 0) && choose === "dispari"){
         result = total + " hai vinto"
     } else{
         result = total + " hai perso"
